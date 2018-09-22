@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash"
+    tools:context="ghazalain.markhorlabs.com.ghazalain.Main2Activity">
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/black"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-4114690728193736/6948755537"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="501dp"></com.google.android.gms.ads.AdView>
+</android.support.constraint.ConstraintLayout>
